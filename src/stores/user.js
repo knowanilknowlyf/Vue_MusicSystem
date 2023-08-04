@@ -26,6 +26,7 @@ export default defineStore('user', {
     async signOut(){
         await auth.signOut();
         this.userLoggedIn=false
+    
     }
   }
 })
